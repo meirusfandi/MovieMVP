@@ -1,0 +1,1 @@
+package come.example.root.moviemvp.model;import retrofit2.Call;import retrofit2.http.GET;public interface ServiceAPI {    @GET("movie/now_playing")    Call<MovieRespons> getMovies();}

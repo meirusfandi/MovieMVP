@@ -1,0 +1,1 @@
+package come.example.root.moviemvp.views;import java.util.List;import come.example.root.moviemvp.model.Movie;public interface MainView {    void getMovies(List<Movie> movies);}

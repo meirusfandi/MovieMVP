@@ -1,0 +1,1 @@
+<resources>    <string name="app_name">Movie MVP</string>    <string name="detail">Detail Movie</string>    <string name="poster">Movie Poster</string>    <string name="movie_title">Movie Title</string>    <string name="release_of_date">Release of Date</string>    <string name="overview">Movie Overview</string></resources>
