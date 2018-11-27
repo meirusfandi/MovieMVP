@@ -1,1 +1,1 @@
-package come.example.root.moviemvp.model;import retrofit2.Call;import retrofit2.http.GET;public interface ServiceAPI {    @GET("movie/now_playing")    Call<MovieRespons> getMovies();}
+package come.example.root.moviemvp.model;import retrofit2.Call;import retrofit2.http.GET;public interface ServiceAPI {//    String API_KEY = "233b568bea8fb27357da8dd3df2fc37f";    @GET("movie/now_playing?api_key=233b568bea8fb27357da8dd3df2fc37f&language=en-US")    Call<MovieRespons> getMovies();}
